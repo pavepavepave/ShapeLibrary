@@ -10,6 +10,11 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShapeLibrary.Tests", "Shape
 		{0BB249A3-1967-4963-BA56-B18CA6A3688A} = {0BB249A3-1967-4963-BA56-B18CA6A3688A}
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SQL Task", "SQL Task", "{FE5CB36D-8B07-4CBB-B4E9-2DD249F3C929}"
+	ProjectSection(SolutionItems) = preProject
+		SqlQuery.sql = SqlQuery.sql
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
