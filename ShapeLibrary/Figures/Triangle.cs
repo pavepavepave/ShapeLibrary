@@ -10,8 +10,8 @@ namespace ShapeLibrary.Figures
 
         public Triangle(double sideA, double sideB, double sideC)
         {
-            if (sideA < 0 || sideB < 0 || sideC < 0)
-                throw new Exception("Значение не может быть меньше 0.");
+            if (sideA <= 0 || sideB <= 0 || sideC <= 0)
+                throw new Exception("Значение не может быть меньше или равно 0.");
 
             SideA = sideA;
             SideB = sideB;

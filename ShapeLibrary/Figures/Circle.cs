@@ -8,8 +8,8 @@ namespace ShapeLibrary.Figures
 
         public Circle(double radius)
         {
-            if (radius < 0)
-                throw new Exception("Значение не может быть меньше 0.");
+            if (radius <= 0)
+                throw new Exception("Значение не может быть меньше или равно 0.");
 
             Radius = radius;
         }
