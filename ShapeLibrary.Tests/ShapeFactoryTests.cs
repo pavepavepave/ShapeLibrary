@@ -7,7 +7,7 @@ namespace ShapeLibrary.Tests
     {
 
         [Fact]
-        public void ShapeFactory_CreateCircleWithIncorrectNumber_CreatesCorrectCircle()
+        public void ShapeFactory_CreateCircleWithCorrectNumber_CreatesCorrectCircle()
         {
             //Arrange
             double[] circleArgs = { 5 };
